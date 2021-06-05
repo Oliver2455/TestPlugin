@@ -1,0 +1,8 @@
+name: Test
+version: ${project.version}
+main: de.oliver2455.test.Test
+api-version: 1.16
+authors: [ Oliver2455 ]
+description: nichts
+commands:
+  heal:
