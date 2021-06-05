@@ -1,6 +1,7 @@
 package de.oliver2455.test;
 
 import de.oliver2455.test.commands.HealCommand;
+import de.oliver2455.test.commands.KillCommand;
 import de.oliver2455.test.listeners.JoinListener;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -24,6 +25,7 @@ public final class Test extends JavaPlugin {
     private void onInit(PluginManager manger) {
         manger.registerEvents(new JoinListener(), this);
         getCommand("heal").setExecutor(new HealCommand());
+        getCommand("kl").setExecutor(new KillCommand());
     }
 
     @Override

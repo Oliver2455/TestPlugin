@@ -1,0 +1,8 @@
+name: Testplugin
+version: 1.0.1
+author: Oliver2455
+commands:
+  heal:
+    description:
+  kl:
+    description:
